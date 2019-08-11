@@ -36,14 +36,13 @@ img{
     width:80%;
 }
 
-.typing{
-    font-size: 5rem;
-    font-family: 'Roboto', sans-serif;
-}
+
 
 .bg-active {
     background: white;
     color: black; }
+
+
 /*Global End*/
 
 /*Reusable*/
@@ -97,13 +96,24 @@ img{
 
 
 .section-heading h6{
-    font-size: 1.6rem;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 3rem;
     font-weight: 300;
+    margin-bottom: 5rem;
     
 }
 
 .has-margin-right{
     margin-right: 5rem;
+}
+
+.red{
+    color: #8B0000;
+    
+}
+
+.red:hover{
+    color: black;
 }
 
 /*Reusable*/
@@ -124,6 +134,7 @@ header {
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
     z-index: 50;
+    
 }
 .nav-list{
     list-style: none;
@@ -132,6 +143,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 li {
     margin: 0 2rem;
@@ -139,8 +151,9 @@ li {
 
 .nav-link{
     font-family: 'Roboto', sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     padding: 1rem;
+    font-family: 'PT Mono', monospace;
 }
 
 .nav-link:hover,
@@ -211,24 +224,47 @@ li {
     top: 50%;
     transform: translate(-50%, -50%;);
     width: 100%;
-    text-align:center;
+    text-align:left;
+    margin-left: 10px;
+    margin-bottom: 25rem;
     z-index: 1;
 }
 
 .landing-text h1{
-    font-size: 20rem;
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to top, #8B0000, #DC143C);
+    font-size: 10rem;
+    font-family: 'PT Mono', monospace;
+    background: white;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 1rem;
+    margin-left: 10px;
     user-select: none;
+    padding: 5px;
+  
+}
+
+.social-media-landing{
+    font-size: 4rem;
+    padding-top: 1.5rem;
+    position: absolute;
     
+}
+
+
+.last-name {
+ color: rgb(220, 20, 60);
 }
 .landing-text h6{
     font-size: 2rem;
     font-weight: 300;
+    
+}
+
+.typing{
+    margin-left: 23px;
+    font-size: 3rem;
+    font-family: 'Lexend Exa', sans-serif;
+    color:#8B0000
 }
 
 /*Header End*/
@@ -239,6 +275,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;  
+    
   
 }
 
@@ -249,13 +286,14 @@ li {
     margin-bottom: 6rem;
 }
 .about-heading h1{
+    font-family: 'Lexend Exa', sans-serif;
     font-size:10rem;
     opacity:.3;
 }
 
 .about-heading h6{
-    font-size: 2rem;
-    font-weight: 300;
+    font-family: 'PT Mono', monospace;
+    font-size: 3rem;
 }
 
 .profile-img {
@@ -268,13 +306,21 @@ li {
 
 .social-media{
     margin-top: 6rem;
+   
 }
+
+.about p{
+    text-align: center;
+    font-family: 'PT Mono', monospace;
+}
+
 
 .social-media i{
     font-size: 5rem;
-    transition: color 650ms;
     margin: 0 1rem;
+    color: rgb(139, 139, 139);
 }
+
 
 .fa-github-square:hover {
     color: #333;
@@ -291,6 +337,10 @@ li {
     -webkit-text-fill-color: transparent;
   
 }
+
+.fa-behance:hover {
+    color: #1769ff;
+}
 /*About End*/
 
 /*Services*/
@@ -301,6 +351,7 @@ li {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2.5rem;
     text-align: center;
+
 }
 
 .skill{
@@ -308,7 +359,8 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+
+  
 
 }
 
@@ -321,21 +373,36 @@ li {
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #DC143C;
-    background-color:  #8B0000;
+    border: 3px solid#333;
+    background-color:  black;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
+    transition: .5s ease;
 
 }
 
 .icon-container i{
-    color: #DC143C;
+    color: white;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
+ 
 }
 
+.icon-container:hover{
+    color: #8B0000;
+    background-color: white;
+    font-size: 5rem;
+    margin: auto;
+    transform: rotate(-45deg);
+    border-color: #8B0000;
+}
+
+.icon-container i:hover{
+    color:#8b0000;
+    transform: rotate(45deg);
+}
 
 /*Services*/
 
@@ -356,12 +423,14 @@ li {
 }
 
 .portfolio-description{
+    font-family: 'PT Mono', monospace;
     flex: 2;
 
 }
 
 .portfolio-description h6{
     font-size: 1.5rem;
+    font-family: 'Lexend Exa', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     opacity: .3;
@@ -369,6 +438,7 @@ li {
 }
 
 .portfolio-description h1{
+    font-family: 'Lexend Exa', sans-serif;
     font-size: 3rem;
     font-weight: 300;
     margin: 1rem 0;
@@ -379,12 +449,13 @@ li {
     margin-top: 2.5rem;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #DC143C;
+    color: #8B0000;
     transition: color 850ms;
+    font-family: 'Lexend Exa', sans-serif;
 }
 
 .portfolio-description .cta:hover{
-    color: #8B0000;
+    color: black;
     
 }
 
@@ -410,6 +481,7 @@ li {
     font-weight: 300;
     margin-bottom: 1rem;
     opacity: .3;
+    font-family: 'Lexend Exa', sans-serif;
 }
 
 .timeline .date{
@@ -417,6 +489,8 @@ li {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     position: relative;
+    font-family: 'PT Mono', monospace;
+    
 
 }
 
@@ -432,6 +506,7 @@ li {
     display: block;
     top 50%;
     transform: translateY(-50%);
+    font-family: 'PT Mono', monospace;
 }
 
 .timeline .date::before{
@@ -457,12 +532,14 @@ li {
 
 /*Contact*/
 .contact{
-    background-color: black;
+    background-color: white;
 
 }
  form{
      width: 70%;
      margin: 0 auto;
+     
+
 
  }
 
@@ -477,7 +554,8 @@ li {
      width: 100%;
      padding: 1rem;
      margin-top: 5px;
-     border: none;
+     border: 1px solid #333;
+     border-radius: .8rem;
      outline-color: #DC143C;
 
  }
@@ -544,13 +622,13 @@ li {
 /*Animation*/
 @keyframes pulse{
     0%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+        box-shadow: 0 0 0 0 rgba(139, 0, 0, 0.99);
     }
     70%{
-        box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 2rem rgba(139, 0, 0, 0);
     }
     100%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 0 rgba(139, 0, 0, 0);
     }
 }
 
@@ -583,7 +661,7 @@ li {
         font-size: 8rem;
     }
 
-    .section-heading h1{
+    .section-heading h6{
         font-size: 3rem;
     }
 
@@ -616,6 +694,8 @@ li {
     .timeline .date::after{
         left: -6rem;
     }
+
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -626,6 +706,10 @@ li {
 
     .landing-text h1{
         font-size: 8rem;
+      
+
+
+        
     }
 
     .landing-text h6{
