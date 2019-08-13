@@ -64,6 +64,24 @@ function bgChanger(){
 
 }
 
-window.addEventListener('scroll',bgChanger);
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-link');
+    const navLinks= document.querySelectorAll('.nav-link li');
+    //TOGGLE NAV
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active');
+    });
+
+   
+}
+
+
+    window.addEventListener('scroll',bgChanger);
+    navSlide();
+    
+
+
+
 
      
