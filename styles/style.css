@@ -24,7 +24,8 @@ section{
 
 a {
     text-decoration: none;
-    color: #eee;
+    cursor: pointer;
+    
 
 }
 p {
@@ -96,7 +97,7 @@ img{
 
 
 .section-heading h6{
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: 300;
     margin-bottom: 5rem;
@@ -116,6 +117,7 @@ img{
     color: black;
 }
 
+
 /*Reusable*/
 
 /*Header Start*/
@@ -130,23 +132,27 @@ nav {
     align-items: center;
     background-color: rgb(226, 226, 226);
     min-height:4vh;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
 
 .logo {
-    color: black;
     text-transform: uppercase;
     font-size: 20;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.logo a {
+    color: black;
 }
 
 .nav-link{
     display: flex;
     width: 30%;
     justify-content:space-around;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     
 }
@@ -206,7 +212,8 @@ li {
 
 .landing-text h1{
     font-size: 10rem;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+   
     margin-left: 10px;
     user-select: none;
     padding: 5px;
@@ -217,7 +224,12 @@ li {
     font-size: 2rem;
     padding-top: 1.5rem;
     position: absolute;
+    
    
+}
+
+.social-media-landing i {
+    color: white;
 }
 
 
@@ -225,16 +237,16 @@ li {
  color: rgb(220, 20, 60);
 }
 .landing-text h6{
-    font-size: 2rem;
+    font-size: 5rem;
     font-weight: 300;
+    margin-left: 15px;
     
 }
 
 .typing{
     margin-left: 23px;
     font-size: 3rem;
-    font-family: 'PT Mono', monospace;
-    
+    font-family: 'Montserrat', sans-serif;
     color:#8B0000
 }
 
@@ -257,13 +269,13 @@ li {
     margin-bottom: 6rem;
 }
 .about-heading h1{
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size:10rem;
     opacity:.3;
 }
 
 .about-heading h6{
-    font-family: 'PT Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
 }
 
@@ -282,7 +294,7 @@ li {
 
 .about p{
     text-align: initial;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -330,6 +342,7 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
   
 
@@ -339,6 +352,7 @@ li {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .icon-container{
@@ -394,14 +408,14 @@ li {
 }
 
 .portfolio-description{
-    font-family: 'PT Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     flex: 2;
 
 }
 
 .portfolio-description h6{
     font-size: 1.5rem;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
     opacity: .3;
@@ -409,7 +423,7 @@ li {
 }
 
 .portfolio-description h1{
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     font-weight: 300;
     margin: 1rem 0;
@@ -422,7 +436,7 @@ li {
     text-transform: uppercase;
     color: #8B0000;
     transition: color 850ms;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .portfolio-description .cta:hover{
@@ -431,6 +445,213 @@ li {
 }
 
 /*Portfolio*/
+
+/*Portfolio Items*/
+.wholemilk header {
+    background-image: url(/styles/img/whole-milk-bg.png);
+    background-size: cover;
+}
+
+.portfolio-landing {
+    margin-top: -50rem;
+    display: flex;
+    background: white;
+    
+}
+
+
+.wholemilk img {
+    width: 200px;
+    height: auto;
+    padding: 5rem;
+    margin-right: 10rem;
+    flex: 1;
+   
+
+}
+
+.wholemilk p {
+    color: black;
+    text-align: right;
+    margin-top:10rem;
+    margin-left: 5rem;
+    margin-right: rem;
+    flex: 2;
+
+    
+}
+
+.wholemilk iframe {
+    width: 100%;
+    flex: 1;
+    
+}
+
+.wholemilk-header {
+    width: 100%;
+    height: 4vh;
+}
+
+.wm-img-1, .wm-img-2, .wm-img-3{
+    position: relative;
+    opacity: .9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wm-img-1{
+    background-image: url(/styles/img/whole-milk-bg.png);
+    min-height: 100%;
+    
+
+}
+
+.wm-img-2{
+    background-image: url(/styles/img/wm-business-cards.jpg);
+    min-height: 400px;
+    
+
+}
+
+.wm-img-3{
+    background-image: url(/styles/img/wm-iphone-mockup.jpg);
+    background-size: cover;
+    min-height: 400px;
+    
+
+}
+
+.wm-overlay:before {
+	content:" ";
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+    background-color:rgba(0,0,0, 0.5);
+    z-index: 0;
+    
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: rgb(240, 240, 240);
+    color: #666;
+}
+
+.section h2 {
+    font-size: 4rem;
+}
+
+.section-dark{
+    background-color: #181818;
+    color: #ddd;
+}
+
+.wm-text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: white;
+    font-size: 8rem;
+    text-align: center;    
+}
+
+.wm-text h6 {
+    font-weight: 300;
+    font-size: 36px;
+    margin-top: -6rem;
+}
+
+.gallon-fill {
+    position: relative;
+    width: 150px;
+    height: auto;
+    margin-top: 6rem;
+    left: 45%;
+   
+}
+.wm-branding {
+    display: grid;
+    width: 100%;
+    padding: 8rem;
+    margin-left: 5rem;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.item-1{
+    grid-column: 1;
+    padding: 2rem;
+}
+
+.item-2{
+    grid-column: 2;
+    padding: 1rem;
+}
+
+.item-3{
+    grid-column: 1;
+    padding: 1rem;
+}
+
+.item-4{
+    grid-column: 2;
+    padding: 1rem;
+}
+
+
+
+.landing-text-wm {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%;);
+    width: 100%;
+    text-align:left;
+    margin-left: 10px;
+    margin-bottom: 25rem;
+    z-index: 1;
+}
+
+.landing-text-wm h1{
+    font-size: 10rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    user-select: none;
+    padding: 5px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.landing-text-wm h6{
+    font-size: 5rem;
+    font-weight: 300;
+    margin-left: 15px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+}
+
+.wm-social-media {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 2rem 24%;
+
+    
+}
+
+
+
+
+/*Portfolio Items*/
 
 
 /*Timeline*/
@@ -452,7 +673,7 @@ li {
     font-weight: 300;
     margin-bottom: 1rem;
     opacity: .3;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .timeline .date{
@@ -460,7 +681,7 @@ li {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     position: relative;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     
 
 }
@@ -477,7 +698,7 @@ li {
     display: block;
     top 50%;
     transform: translateY(-50%);
-    font-family: 'PT Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .timeline .date::before{
@@ -618,7 +839,7 @@ li {
     }
 
     .landing-text h6{
-        font-size: 1.7rem;
+        font-size: 5rem;
     }
 
     .nav-list{
