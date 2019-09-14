@@ -589,6 +589,12 @@ li {
     grid-template-columns: repeat(2, 1fr);
 }
 
+#wm-app {
+    width: 60%;
+    margin-top: 5rem;
+}
+]
+
 .item-1{
     grid-column: 1;
     padding: 2rem;
@@ -647,6 +653,45 @@ li {
 
     
 }
+
+.ramen-bg {
+    background-image: url(/styles/img/ramen-shop/ramen-logo_3_2.gif);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -150px;
+
+}
+
+.ramen-img-1, .ramen-img-2, .ramen-img-3{
+    position: relative;
+    opacity: .9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ramen-img-1{
+    background-image: url(/styles/img/ramen-shop/3.png);
+    min-height: 400px;
+    
+
+}
+
+.ramen-img-2{
+    background-image: url(/styles/img/ramen-shop/ramen-bowl-2.jpg);
+    min-height: 400px;
+    
+
+}
+
+.ramen-img-3{
+    background-image: url(/styles/img/ramen-shop/10.png);
+    background-size: cover;
+    min-height: 400px;
+    
+
 
 
 
