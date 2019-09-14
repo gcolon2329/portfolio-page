@@ -9,28 +9,29 @@
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700&display=swap" rel="stylesheet">
 
-    <header>
+ 
 
-        <nav>
-            <div class="logo">
-                <h4><a href="/index.html#home">GC</a></h4>
-            </div>
-            <ul class = "nav-link">
-                <li><a href="#home">Home</a> </li>
-                <li><a href="#about">About</a> </li>
-                <li><a href="#portfolio">Work</a> </li>
-                <li><a href="#experience">Experience</a> </li>
-                <li><a href="#contact">Contact</a> </li>
-            </ul>
-            <div class="burger">
-                <div class = "line1"></div>
-                <div class = "line2"></div>
-                <div class = "line3"></div>
-            </div>
+    <header class ="wm-overlay">
+            <nav id = "nav2">
+                    <div class="logo">
+                        <h4><a href="/index.html#home">GC</a></h4>
+                    </div>
+                    <ul class = "nav-link">
+                        <li><a href="#home">Home</a> </li>
+                        <li><a href="#about">About</a> </li>
+                        <li><a href="#portfolio">Work</a> </li>
+                        <li><a href="#experience">Experience</a> </li>
+                        <li><a href="#contact">Contact</a> </li>
+                    </ul>
+                    <div class="burger">
+                        <div class = "line1"></div>
+                        <div class = "line2"></div>
+                        <div class = "line3"></div>
+                    </div>
+        
+                </nav>
 
-        </nav>
-
-        <div class="landing-text" data-aos="fade-up" data-aos-delay="100">
+        <div class="landing-text " data-aos="fade-up" data-aos-delay="100">
             <h1>Gabriel Colón</h1>
             <div class="typing"></div>
 
@@ -59,8 +60,108 @@
                 </ul>
             </div>
         </div>
+       
         
     </header>
+
+<body>  
+     
+    <section class="portfolio" id = "portfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Portfolio</h1>
+                    <h6>Recent Work</h6>
+                </div>
+                <div class="portfolio-item ">
+                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                        <a href="/wholemilk.html"><img style = "width: 90%" src="/styles/img/WHOLE-MILK-FINAL-LOGO-ADPC_2(black).png" alt="whole-milk-logo"></a>
+                    </div>
+                    <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
+                        <h6>Full Branding</h6>
+                        <h1>Whole Milk Studios</h1>
+                        <p>
+                                <a class = "red" href= "wholemilkstudios.com">Whole Milk Studios</a> is a Miami based Digital Production Collective focused in creating digital 
+                                content for media outlets big and small.  
+                        </p>
+                        <a href="/wholemilk2.html" class = "cta"> View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                        <div class="portfolio-description" data-aos="fade-right" data-aos-delay="500">
+                                <h6>Logo Design</h6>
+                                <h1>Ramen Shop</h1>
+                                <p>
+                                    Ramen Shop was a comissioned logo for a Ramen and Beer Resteraunt. A comissioned logo that
+                                    ended up creating a logos for 15 other ramen shops.
+
+                                </p>
+                                <a href="/ramen-shop.html" class = "cta"> View Details</a>
+                            </div>
+                        <div class="portfolio-img  has-margin-right" data-aos="fade-left" data-aos-delay="600">
+                            <a href="/ramen-shop.html"><img style = "width: 100%" src="/styles/img/ramenshop_1.png" alt="ramen-shop-logo"></a>
+                        </div>
+                        
+                    </div>
+                    <div class="portfolio-item">
+                            <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="700">
+                                <img style = "width: 100%" src="/styles/img/hecho-en/black_fill_png copy 2.png" alt="hecho-en">
+                            </div>
+                            <div class="portfolio-description" data-aos="fade-left" data-aos-delay="800">
+                                <h6>Web Design</h6>
+                                <h1>Product Sketch</h1>
+                                <p>
+                                        Lorem ipsum dolor sit amet. consectetur adpisicing elit.
+                                        Lorem ipsum dolor sit amet. consectetur adpisicing elit.
+                                        Lorem ipsum dolor sit amet. consectetur adpisicing elit.
+                                </p>
+                                <a href="/hecho-en.html" class = "cta"> View Details</a>
+                            </div>
+                        </div>
+            </div>
+    </section>
+
+    <section class="services" id = "services">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Services</h1>
+                    <h6>More Work</h6>
+                </div>
+                <div class="my-skills">
+                    <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                        <div class="icon-container">
+                            <a href="/web-design.html"><i class="fas fa-layer-group"></i>
+                        </div>
+                        <h1>Web Design</h1>
+                    </a>
+                    </div>
+                
+                <div class="skill" data-aos="fade-in" data-aos-delay="400">
+                        <div class="icon-container">
+                            <a href="/web-development.html"><i class="fas fa-code"></i>
+                        </div>
+                        <h1>Web Development</h1>
+                    </a>
+                    </div>
+                
+                    <div class="skill" data-aos="fade-in" data-aos-delay="500">
+                            <div class="icon-container">
+                                   <a href="/editing.html"><i class="fas fa-desktop"></i>
+                            </div>
+                            <h1> Editing</h1>
+                        </a> 
+                        </div>
+    
+    
+                    <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                            <div class="icon-container">
+                                  <a href="/logo-design.html">  <i class="fas fa-vector-square"></i>
+                            </div>
+                            <h1> Logo / Design</h1>
+                        </a>
+                        </div>
+                </div>
+            </div>
+        </section>
 
    <section class="about" id="about">
        <div class="container">
@@ -106,98 +207,9 @@
 
    </section>
 
-    <section class="services" id = "services">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Services</h1>
-                <h6>What I can do for you</h6>
-            </div>
-            <div class="my-skills">
-                <div class="skill" data-aos="fade-in" data-aos-delay="300">
-                    <div class="icon-container">
-                        <i class="fas fa-layer-group"></i>
-                    </div>
-                    <h1>Web Design</h1>
-                </div>
-            
-            <div class="skill" data-aos="fade-in" data-aos-delay="400">
-                    <div class="icon-container">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h1>Web Development</h1>
-                </div>
-            
-                <div class="skill" data-aos="fade-in" data-aos-delay="500">
-                        <div class="icon-container">
-                                <i class="fas fa-desktop"></i>
-                        </div>
-                        <h1> Editing</h1>
-                    </div>
+   
 
-
-                <div class="skill" data-aos="fade-in" data-aos-delay="600">
-                        <div class="icon-container">
-                                <i class="fas fa-vector-square"></i>
-                        </div>
-                        <h1> Logo / Design</h1>
-                    </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio" id = "portfolio">
-            <div class="container">
-                <div class="section-heading">
-                    <h1>Portfolio</h1>
-                    <h6>Recent Work</h6>
-                </div>
-                <div class="portfolio-item ">
-                    <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
-                        <img style = "width: 90%" src="/styles/img/WHOLE-MILK-FINAL-LOGO-ADPC_2(black).png" alt="whole-milk-logo">
-                    </div>
-                    <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
-                        <h6>Full Branding</h6>
-                        <h1>Whole Milk Studios</h1>
-                        <p>
-                                <a class = "red" href= "wholemilkstudios.com">Whole Milk Studios</a> is a Miami based Digital Production Collective focused in creating digital 
-                                content for media outlets big and small.  
-                        </p>
-                        <a href="/wholemilk2.html" class = "cta"> View Details</a>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                        <div class="portfolio-description" data-aos="fade-right" data-aos-delay="900">
-                                <h6>Logo Design</h6>
-                                <h1>Ramen Shop</h1>
-                                <p>
-                                    Ramen Shop was a comissioned logo for a Ramen and Beer Resteraunt. A comissioned logo that
-                                    ended up creating a logos for 15 other ramen shops.
-
-                                </p>
-                                <a href="/ramen-shop.html" class = "cta"> View Details</a>
-                            </div>
-                        <div class="portfolio-img  has-margin-right" data-aos="fade-left" data-aos-delay="600">
-                            <img style = "width: 100%" src="/styles/img/ramenshop_1.png" alt="ramen-shop-logo">
-                        </div>
-                        
-                    </div>
-                    <div class="portfolio-item">
-                            <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1200">
-                                <img src="/styles/img/Asset 5.png" alt="letca-logo">
-                            </div>
-                            <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1500">
-                                <h6>Web Design</h6>
-                                <h1>Product Sketch</h1>
-                                <p>
-                                        Lorem ipsum dolor sit amet. consectetur adpisicing elit.
-                                        Lorem ipsum dolor sit amet. consectetur adpisicing elit.
-                                        Lorem ipsum dolor sit amet. consectetur adpisicing elit.
-                                </p>
-                                <a href="#" class = "cta"> View Details</a>
-                            </div>
-                        </div>
-            </div>
-    </section>
+   
 
     <section class="experience" id = "experience">
             <div class="container">
@@ -250,9 +262,11 @@
                     <input type="email" id="email" name="email" placeholder="Email" required>
                     <label for="service">Services:</label>
                     <select name="services" id="service">
-                        <option value="">Web Design</option>
-                        <option value="">Web Development</option>
-                        <option value="">Web Design/Development</option>
+                            <option value="">Logo Design</option>
+                            <option value="">Logo + Branding</option>
+                            <option value="">Web Design</option>
+                            <option value="">Web Development</option>
+                            <option value="">Web Design + Development</option>
                     </select>
                     <label for="subject">Subject</label>
                     <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
@@ -273,5 +287,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="styles/main.js"></script>
+    <nav>
+            <div class="logo">
+                <h4><a href="/index.html#home">GC</a></h4>
+            </div>
+            <ul class = "nav-link">
+                <li><a href="#home">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#portfolio">Work</a> </li>
+                <li><a href="#experience">Experience</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+            </ul>
+            <div class="burger">
+                <div class = "line1"></div>
+                <div class = "line2"></div>
+                <div class = "line3"></div>
+            </div>
+
+        </nav>
 </body>
 </html>

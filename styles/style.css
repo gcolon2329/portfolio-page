@@ -57,7 +57,7 @@ img{
 
 .section-heading{
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .section-heading h1{
@@ -124,18 +124,25 @@ img{
 header {
     width: 100%;
     height:100vh;
+    background-image: url(/styles/img/austin-chan-ukzHlkoz1IE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    opacity: 1;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(226, 226, 226);
     min-height:4vh;
     font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    bottom: 0;
     
 }
-
 
 .logo {
     text-transform: uppercase;
@@ -145,7 +152,7 @@ nav {
 }
 
 .logo a {
-    color: black;
+    color:black;
 }
 
 .nav-link{
@@ -162,10 +169,10 @@ nav {
 }
 
 .nav-link a{
-    color: black;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
+    color: black;
 }
 
 .nav-link a:hover{
@@ -177,6 +184,11 @@ nav {
     height: 3px;
     background-color: black;
     margin: 5px;
+}
+
+#nav2 a{
+    color: white;
+    position: static;
 }
 
 .burger{
@@ -358,7 +370,6 @@ li {
 .icon-container{
     width: 10rem;
     height: 10rem;
-   
     background-color:  black;
     margin-bottom: 2rem;
     display: flex;
@@ -370,7 +381,7 @@ li {
 .icon-container i{
     color: white;
     font-size: 5rem;
-    margin: auto;
+    margin: 50%;
     transform: rotate(-45deg);
  
 }
@@ -425,7 +436,7 @@ li {
 .portfolio-description h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 1rem 0;
 }
 
@@ -690,7 +701,11 @@ li {
     background-image: url(/styles/img/ramen-shop/10.png);
     background-size: cover;
     min-height: 400px;
-    
+}
+
+.hecho-en-logo {
+    size: 80rem;
+}
 
 
 
@@ -717,7 +732,7 @@ li {
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .3;
+    opacity: .6;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -809,8 +824,11 @@ li {
  }
 
  input[type="submit"]:hover{
+    border-radius: .8rem;
      color: white;
      background-color: #8B0000
+     
+     
 
  }
 
@@ -822,7 +840,7 @@ li {
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #303030;
+    background-color: white;
     padding: 2rem 0;
     position: absolute;
 }
@@ -957,6 +975,7 @@ li {
     }
 
     .icon-container i{
+
         font-size: 3.5rem;
     }
 
