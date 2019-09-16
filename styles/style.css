@@ -117,6 +117,11 @@ img{
     color: black;
 }
 
+.meme img{
+    width: 60%;
+    margin: 5rem 30rem;
+}
+
 
 /*Reusable*/
 
@@ -189,6 +194,7 @@ nav {
 #nav2 a{
     color: white;
     position: static;
+
 }
 
 .burger{
@@ -335,6 +341,10 @@ li {
 
 .fa-behance:hover {
     color: #1769ff;
+}
+
+.fa-facebook-f:hover {
+    color:  #3C5A99;
 }
 /*About End*/
 
@@ -707,6 +717,51 @@ li {
     size: 80rem;
 }
 
+.hecho-en-bg {
+    background-image: url(/styles/img/hecho-en/header_1.gif);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -150px;
+}
+
+.hecho-en-img-1, .hecho-en-img-2, .hecho-en-img-3{
+    position: relative;
+    opacity: .9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hecho-en-img-1{
+    background-image: url(/styles/img/hecho-en/graffiti2-2.jpg);
+    min-height: 400px;
+    
+
+}
+
+.hecho-en-img-2{
+    background-image: url(/styles/img/hecho-en/graffiti.jpg);
+    min-height: 400px;
+    
+
+}
+
+.hecho-en-img-3{
+    background-image: url(/styles/img/hecho-en/diego-lozano-R1L_eralFEU-unsplash-2.png);
+    min-height: 400px;
+    
+
+}
+
+.hecho-section {
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between
+}
+    
+
 
 
 
@@ -1052,3 +1107,5 @@ li {
     .uip{
         right: 2rem;
     }
+
+   
